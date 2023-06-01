@@ -8,6 +8,7 @@
 #include <sys/mman.h>
 #include <unistd.h>
 
+//
 #define argb8888_to_rgb565(color) ({ \
 unsigned int temp = (color); \
 ((temp & 0xF80000UL) >> 8) | \
